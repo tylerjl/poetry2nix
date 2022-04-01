@@ -90,6 +90,7 @@ pythonPackages.callPackage
 
       # Prevent infinite recursion
       skipSetupToolsSCM = [
+        "adafruit-circuitpython-seesaw"
         "setuptools_scm"
         "setuptools-scm"
         "toml" # Toml is an extra for setuptools-scm
